@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Jost";
+    padding-bottom: 15px;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+}
+.grid-container {
+    display: grid;
+    height: 30em;
+    width: 30em;
+
+}
