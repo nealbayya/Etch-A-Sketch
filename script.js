@@ -56,7 +56,7 @@ function setupGrid(dim) {
         gridItem.style.gridRowStart = row;
         gridItem.style.gridRowEnd = 1 + row;
 
-        gridItem.style.border = "0.75px solid black";
+        gridItem.style.border = "0.1px solid black";
         gridItem.style.paddingTop = "80%";
         
         gridItem.classList.add('gi');
@@ -109,7 +109,6 @@ function setupControlsPanel() {
     bwButton.addEventListener('click', () => {
         resetPaletteButtons();
         palette = 0;
-        console.log("here");
         bwButton.style.backgroundColor = 'black';
         bwButton.style.color = 'white';
     });
