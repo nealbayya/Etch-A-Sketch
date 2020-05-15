@@ -14,5 +14,12 @@ header {
     display: grid;
     height: 30em;
     width: 30em;
+}
 
+.controls-container {
+    display: flex;
+    flex-direction: row;
+    font-family: "Jost";
+    justify-content: center;
+    padding-bottom: 30px;
 }
